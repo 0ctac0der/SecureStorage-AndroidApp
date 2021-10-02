@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/card_item_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_4"
+    android:layout_marginBottom="@dimen/margin_8">
+
+    <TextView
+        android:id="@+id/txt_card_number"
+        style="@style/TextViewNormal"
+        tools:text="Dummy"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/txt_card_expiry"
+        style="@style/TextViewNormal"
+        tools:text="Dummy"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/txt_card_cvv"
+        style="@style/TextViewNormal"
+        tools:text="Dummy"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/txt_card_name"
+        style="@style/TextViewNormal"
+        tools:text="Dummy"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/layout_edit_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/margin_16">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_edit"
+            style="@style/clickButton"
+            android:layout_marginRight="@dimen/margin_8"
+            android:text="@string/edit" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_delete"
+            style="@style/clickButton"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:text="@string/delete" />
+    </LinearLayout>
+
+</LinearLayout>

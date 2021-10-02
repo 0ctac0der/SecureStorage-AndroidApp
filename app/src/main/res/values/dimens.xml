@@ -1,0 +1,26 @@
+<resources>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+
+    <dimen name="button_height_25">25dp</dimen>
+    <dimen name="button_height">40dp</dimen>
+    <dimen name="twitter_button">24dp</dimen>
+    <dimen name="button_horizontal_margin">24dp</dimen>
+    <dimen name="button_vertical_margin">16dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_9">9dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_100">100dp</dimen>
+    <dimen name="button_radius">50dp</dimen>
+
+    <dimen name="padding_16">16dp</dimen>
+    <dimen name="padding_8">8dp</dimen>
+    <dimen name="padding_4">4dp</dimen>
+    <dimen name="padding_3">3dp</dimen>
+    <dimen name="edit_text_corners">3dp</dimen>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_16"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViewHeading"
+                android:text="@string/log_in" />
+
+            <View
+                style="@style/LineSeparator"
+                android:layout_marginBottom="@dimen/margin_8"></View>
+
+            <TextView
+                style="@style/TextViewNormal"
+                android:layout_marginTop="@dimen/margin_8"
+                android:text="@string/username" />
+
+            <EditText
+                android:id="@+id/et_username"
+                android:hint="@string/txt_enter_username"
+                style="@style/EdittextField" />
+
+            <TextView
+                style="@style/TextViewNormal"
+                android:layout_marginTop="@dimen/margin_8"
+                android:text="@string/password" />
+
+            <EditText
+                android:id="@+id/et_password"
+                android:hint="@string/txt_enter_password"
+                android:inputType="textPassword"
+                style="@style/EdittextField" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/margin_8"
+                android:layout_marginBottom="@dimen/margin_16">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_login"
+                    style="@style/clickButton"
+                    android:text="@string/login" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    style="@style/TextViewNormal"
+                    android:text="@string/need_an_account" />
+
+                <TextView
+                    android:id="@+id/btn_signup"
+                    style="@style/TextViewBlueColor"
+                    android:text="@string/signup_now"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="@dimen/margin_16"/>
+            </RelativeLayout>
+
+            <View
+                style="@style/LineSeparator"
+                android:layout_marginBottom="@dimen/margin_8"></View>
+
+            <TextView
+                style="@style/TextViewBlueColor"
+                android:text="SecureStorage v1.0"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/button_height"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/margin_16"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
